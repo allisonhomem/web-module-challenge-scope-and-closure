@@ -182,9 +182,6 @@ function scoreboard(totalInnings) {
   return theScore;
 }
 
-console.log(scoreboard(9));
-
-
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
 function foo(){
