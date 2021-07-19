@@ -33,12 +33,12 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   2. Which of the two uses a closure? How can you tell?
 
-  counter1 uses a closure, since it has a function within the function that graps a variable from the parent function.
+  counter1 uses a closure, since it has a function within the function that grabs a variable from the parent function.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
 
-
+     Counter2 might be preferred if the developer wants to access the variable count elsewhere in the code, and counter1 might be preferred otherwise.
 */
 
 // counter1 code
@@ -183,6 +183,8 @@ function scoreboard(totalInnings) {
 }
 
 console.log(scoreboard(9));
+
+
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
 function foo(){
